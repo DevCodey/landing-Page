@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.header{
+  width: 100%;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1F2937;
+}
+
+.logo{
+  font-size: 24px;
+  color: #F9faf8;
+}
+
+.links{
+  list-style: none;
+  display: flex;
+}
+
+.links>li{
+  padding: 10px;
+  margin: 5px;
+}
+
+.links>li>a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.links>li>a:visited{
+  color: #E5E7EB;
+}

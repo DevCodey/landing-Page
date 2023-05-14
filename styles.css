@@ -1,27 +1,5 @@
 *{
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   text-decoration: none;
 }
 
-body{
-  font-family: 'Roboto',sans-serif;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header{
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  margin: 25px;
-}
-
-.header > ul{
-  list-style: none;
-  display: flex;
-  gap: 16px;
-
-}

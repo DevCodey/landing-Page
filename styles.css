@@ -1,5 +1,26 @@
 *{
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
 }
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links{
+  display: flex;
+  gap: 16px;
+}
+
 

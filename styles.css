@@ -16,11 +16,29 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 48px;
 }
 
 .links{
   display: flex;
   gap: 16px;
 }
+
+.hero{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.image-placeholder {
+    background-color: #9d9d9d;
+    height: 180px;
+    margin: 5px;
+    width: 260px;
+    display: flex;
+    flex: 2 1 50%;
+}
+
 
 

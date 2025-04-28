@@ -42,7 +42,7 @@ body{
 
 .section-one{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -61,5 +61,5 @@ body{
 
 .image.content{
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
 }
